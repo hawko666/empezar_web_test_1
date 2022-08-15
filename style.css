@@ -1,0 +1,32 @@
+
+  body {
+      position: relative; 
+  }
+
+
+.bg-d{
+    background-color: #c00000;
+}
+
+.b-fix{
+    background-image: url(image/banner.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.abs-center{
+    position: absolute; 
+    bottom: -1070px;
+    left: 170px;
+}
+
+.animate__animated.animate__pulse {
+    --animate-duration: 2s;
+  }
+
+  @media screen and (min-width:768px) and (max-width: 980px) {
+    .card {
+      width: 50% !important;
+      display: initial;
+    }
+  }
